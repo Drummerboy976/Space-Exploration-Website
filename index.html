@@ -13,7 +13,6 @@
     	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
 		<title>The Hubble Telescope</title>
-		<link rel="stylesheet" href="css/mycss.css">
 		<!--End of the head-->
 </head>
 
@@ -42,7 +41,7 @@
 			
 			<!--First article-->
 			<article id="When Did It Launch">
-			<h2 class="display-6 text-center">When did it launch?</h2>
+			<h2 class="display-4 text-center">When did it launch?</h2>
 				<p>
 					The Hubble telescope was launched on April 24, 1990. It was launched on the space shuttle named Discovery
 				</p>
@@ -61,10 +60,10 @@
 			<!--Third Article-->
 			<article id="What has the hubble telescope done">
 				<img title="Finding of the Hubble telescope #2" class="rounded mx-auto d-block" src="images/HubbleTelescopeFinding2.jpeg"	alt="Hubble telescope finding 2" width="250" height="125">
-				<h2 class="display-6 text-center">What has the hubble telescope done?</h2>
+				<h2 class="display-4 text-center">What has the hubble telescope done?</h2>
 				<p>
 					<!--em tag-->
-					<em>The Hubble telescope has helped to discover that every major galaxy has a black hole at its center.</em>
+					<em> <span class="border-bottom">The Hubble telescope has helped to discover that every major galaxy has a black hole at its center.</span></em>
 					It also has recently assissted in the discovery of two moons around pluto's orbit. 
 					The Hubble telescope is a massive and vital tool that astrologists use to study the universe.
 				</p>
@@ -75,23 +74,23 @@
 			<section>
 			<p>Here is a list of other things that the telecope has discovered:</p>
 			<ul class="list-unstyled ">
-				<li>Stellar Populations</li>
-				<li>Dark energy</li>
-				<li>a comet colliding with the planet of Jupiter</li>
+				<li class="text-info">Stellar Populations</li>
+				<li class="text-danger">Dark energy</li>
+				<li class="text-info">a comet colliding with the planet of Jupiter</li>
 			</ul>
 			</section>
 			<br>
 			
-			<section id="Information">
-			<p>If you would like to see more images about the telescope or its discoveries, please click here: <a href="https://hubblesite.org/resource-gallery/images">Images</a></p>
+			<section id="Information" class = "pt-4">
+				<h3 class = "display-6">More information</h3>
+				<p>If you would like to see more images about the telescope or its discoveries, please click here: <a class="btn btn-primary" href="https://hubblesite.org/resource-gallery/images">Images</a></p>
 			
-			<br>
+				<br>
 			
-			<p>If you would like to see videos about the telescope, please click here: <a href="https://hubblesite.org/resource-gallery/videos">Videos</a></p>
+				<p>If you would like to see videos about the telescope, please click here: <a class="btn btn-primary" href="https://hubblesite.org/resource-gallery/videos">Videos</a></p>
 			
-			<br>
-			<h3>More information</h3>
-			<p>For more information on the hubble telescope, you can visit the official site from NASA at <a href="https://hubblesite.org/">HUBBLESITE</a></p>
+				<br>
+				<p>For more information on the hubble telescope, you can visit the official site from NASA at <a class="btn btn-primary" href="https://hubblesite.org/">HUBBLESITE</a></p>
 			</section>
 			
 		
@@ -107,7 +106,7 @@
 		<!--Start of the form-->
 		<!-- New Section-->
 		<aside>
-			<form>
+			<form class = "pt-4">
 				<label for="name">Name: </label>
 				<input type="text" id="name" name="name" placeholder="Enter name here" required="true"><br>
 				
