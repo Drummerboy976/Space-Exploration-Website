@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    max-width: 960x;
+    width:auto;
+}
+
+a{
+ text-decoration: none;
+ display: inline-block;
+ margin-right: 8px;
+ margin-bottom: 5px;
+}
+
+a:link{
+color:#DCDCDC;
+}
+
+a:visited{
+    color:dodgerblue
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color:orange;
+}
+
+
+
+
+
